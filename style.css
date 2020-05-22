@@ -24,6 +24,8 @@ body{
   
 }
 .person{
+display: flex;
+align-items:flex-start ;
 
 }
 
@@ -36,7 +38,7 @@ body{
 
 .person__description--with-margin{
   margin-bottom: 22px;
-  
+
 }
 
 .peron__info{
@@ -52,6 +54,11 @@ font-size: 36px;
 margin: 0;
 font-weight: normal;
 }
+
+.person__picture{
+  margin-right: 32px;
+}
+
 .person__position{
   font-size: 18px;
   color: #545454;
